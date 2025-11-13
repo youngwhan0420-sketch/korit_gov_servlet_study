@@ -1,4 +1,4 @@
-package com.korit.korit_gov_servlet_study.ch02;
+package com.korit.korit_gov_servlet_study.ch04;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,11 +7,14 @@ import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 @Builder
-public class User {
+@NoArgsConstructor
+
+
+public class Todo {
+    private Integer todoId;
+    private String title;
+    private String content;
     private String username;
-    private String password;
-    private String name;
-    private String email;
+
 }

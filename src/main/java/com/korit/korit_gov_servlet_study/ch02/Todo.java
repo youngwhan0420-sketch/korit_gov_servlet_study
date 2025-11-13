@@ -5,13 +5,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class User {
+@Data
+public class Todo {
+    private String title;
+    private String content;
     private String username;
-    private String password;
-    private String name;
-    private String email;
 }
