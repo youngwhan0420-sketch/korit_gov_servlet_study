@@ -7,7 +7,7 @@
 //
 //public class TodoRepository {
 //    private static TodoRepository instance;
-//    private List<Todo> todos; // Todo들을 저장하는
+//  private List<Todoos> todos;
 //    private Integer todoId = 1;
 //
 //    private TodoRepository() {
