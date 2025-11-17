@@ -1,9 +1,10 @@
 package com.korit.korit_gov_servlet_study.ch04;
 
-
 import lombok.Builder;
+import lombok.Data;
 
 @Builder
+@Data
 public class TodoDto {
     private String title;
     private String content;

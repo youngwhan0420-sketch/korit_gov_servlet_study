@@ -1,4 +1,4 @@
-package com.korit.korit_gov_servlet_study.ch03;
+package com.korit.korit_gov_servlet_study.ch04;
 
 import lombok.Builder;
 
